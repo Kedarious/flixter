@@ -1,12 +1,13 @@
 class Instructor::SectionsController < ApplicationController
    before_action :authenticate_user!
-   before_action :require_authorized_for_current_course
+   before_action :require_authorized_for_current_course 
+
 	def new
 		@section = Section.new
 	end	
 
 	def create
-    @section = current_course.sections.create(section_params)
+    @section = current_course.sections.new(section_params)
     redirect_to instructor_course_path(current_course)
   end
 
