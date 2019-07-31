@@ -32,6 +32,7 @@ gem 'devise'
 gem 'carrierwave', '>= 2.0.0.rc', '< 3.0'
 gem "mini_magick"
 gem 'fog-aws'
+gem 'carrierwave-aws'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
