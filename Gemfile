@@ -36,6 +36,7 @@ gem 'carrierwave-aws'
 gem "figaro"
 gem 'stripe'
 gem 'ranked-model'
+gem 'jquery-ui-rails'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
