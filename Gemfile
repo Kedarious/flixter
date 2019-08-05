@@ -28,6 +28,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'jquery-rails'
 gem 'simple_form'
+gem 'font-awesome-rails'
 gem 'devise'
 gem 'carrierwave', '>= 2.0.0.rc', '< 3.0'
 gem "mini_magick"
@@ -37,6 +38,7 @@ gem "figaro"
 gem 'stripe'
 gem 'ranked-model'
 gem 'jquery-ui-rails'
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
