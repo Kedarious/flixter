@@ -26,18 +26,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-gem 'jquery-rails'
-gem 'simple_form'
-gem 'font-awesome-rails'
-gem 'devise'
-gem 'carrierwave', '>= 2.0.0.rc', '< 3.0'
-gem "mini_magick"
-gem 'fog-aws'
-gem 'carrierwave-aws'
-gem "figaro"
-gem 'stripe'
-gem 'ranked-model'
-gem 'jquery-ui-rails'
+
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
@@ -75,7 +64,18 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'popper_js', '~> 1.11.1'
 gem 'bootstrap', '4.0.0.alpha6'
-
+gem 'jquery-rails'
+gem 'simple_form'
+gem 'font-awesome-rails'
+gem 'devise'
+gem 'carrierwave', '>= 2.0.0.rc', '< 3.0'
+gem "mini_magick"
+gem 'fog-aws'
+gem 'carrierwave-aws'
+gem "figaro"
+gem 'stripe'
+gem 'ranked-model'
+gem 'jquery-ui-rails'
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end
